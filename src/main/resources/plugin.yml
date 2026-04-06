@@ -1,0 +1,19 @@
+name: LCBroadcasts
+version: 1.0.0
+main: com.spaleforce.lcbroadcasts.LCBroadcasts
+api-version: '1.21'
+author: ignLuc4s
+
+description: Automatic broadcast messages with configurable interval and order
+
+commands:
+  lcbroadcast:
+    description: Manage LCBroadcasts plugin
+    usage: /lcbroadcast reload
+    permission: autobroadcast.reload
+    permission-message: You don't have permission to use this command.
+
+permissions:
+  autobroadcast.reload:
+    description: Allows reloading the LCBroadcasts configuration
+    default: op
